@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotoblog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="container">
+        <nav>
+          <img src="./assets/camera.svg" alt="Imagem da logomarca" />
+          <ul>
+            <li>Home</li>
+            <li class="active">Galeria</li>
+          </ul>
+        </nav>
+
+        <form>
+          <div class="input-wrapper">
+            <label for="search">Pesquise por imagens e coleções</label>
+            <input
+              id="search"
+              type="text"
+              placeholder="Pesquise por imagens e coleções"
+            />
+          </div>
+        </form>
+        <img
+          class="avatar"
+          src="https://randomuser.me/api/portraits/men/9.jpg"
+          alt="Imagem de um homem de terno e camisa cinza com botão superior aberto em frente a um fundo cinza escuro"
+        />
+      </header>
+      <main>
+        <div class="container">
+          <h1>Galeria</h1>
+          <section class="gallery">
+            <figure class="item">
+              <img src="https://picsum.photos/390/194?random=1" alt="Random Unsplash Image" />
+              <figcaption class="details">
+                <h2>Workspace elétrica</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" style="--delay:.8s">
+              <img src="https://picsum.photos/390/194?random=2" alt="Random Unsplash Image" />
+              <figcaption class="details">
+                <h2>Dark and red</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" style="--delay:1.2s">
+              <img src="https://picsum.photos/390/194?random=3" alt="Random Unsplash Image" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" style="--delay:1.6s">
+              <img src="https://picsum.photos/390/194?random=4" alt="Random Unsplash Image" />
+              <figcaption class="details">
+                <h2>Colmeia</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" style="--delay:2.0s">
+              <img src="https://picsum.photos/390/194?random=5" alt="Random Unsplash Image" />
+              <figcaption class="details">
+                <h2>Setup de escritor</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" style="--delay:2.4s">
+              <img src="https://picsum.photos/390/194?random=6" alt="Random Unsplash Image" />
+              <figcaption class="details">
+                <h2>Ergonomia e cores</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" style="--delay:2.8s">
+              <img src="https://picsum.photos/390/194?random=7" alt="Random Unsplash Image" />
+              <figcaption class="details">
+                <h2>Show de luzes</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item"style="--delay:3.2s">
+              <img src="https://picsum.photos/390/194?random=8" alt="Random Unsplash Image" />
+              <figcaption class="details">
+                <h2>Deep purple</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" style="--delay:3.6s">
+              <img src="https://picsum.photos/390/194?random=9" alt="Random Unsplash Image" />
+              <figcaption class="details">
+                <h2>Multi-screen</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+          </section>
+        </div>
+      </main>
+      <footer class="container">
+        <p>© 2023 - Rocketseat Explorer</p>
+      </footer>
+    </div>
+  </body>
+</html>
